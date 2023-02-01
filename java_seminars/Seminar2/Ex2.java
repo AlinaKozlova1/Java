@@ -3,7 +3,6 @@ package java_seminars.Seminar2;
 
 import java.util.Scanner;
 
-
 public class Ex2 {
     public static StringBuilder compresseString(String symbols) {
         int count = 1;
@@ -11,8 +10,7 @@ public class Ex2 {
         for (int i = 1; i < symbols.length(); i++) {
             if (symbols.charAt(i) == symbols.charAt(i - 1)) {
                 count++;
-                System.out.println(symbols.length() + " i = " + i);
-                
+
             } else {
                 ;
                 sb.append(Integer.toString(count) + (symbols.charAt(i - 1)));
