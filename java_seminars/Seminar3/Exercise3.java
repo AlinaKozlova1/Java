@@ -12,16 +12,16 @@ import java.util.stream.Collectors;
 // Пройти по списку, найти и удалить целые числа.
 public class Exercise3 {
     public static void findNumbers(ArrayList list1) {
-        List <Integer> listOfNumbers = list1
-        .stream().
-        filter(e -> e instanceof Number)
-        .collect(Collectors.toList());
+        // List <Integer> listOfNumbers = list1
+        // .stream().
+        // filter(e -> e instanceof Number)
+        // .collect(Collectors.toList());
         // for (int i = 0; i<list1.size(); i++){
             // if (list1.get(i) instanceof Integer){
             // if (list1.get(i))
             //     list1.remove(i);
             // }
-        System.out.println(listOfNumbers);
+        // System.out.println(listOfNumbers);
         // }        
     }
     public static void main(String [] arg) {
